@@ -1,5 +1,4 @@
 import javax.swing.*;
-import javax.swing.border.Border;
 import java.awt.*;
 
 void main() {
@@ -14,7 +13,6 @@ void main() {
     frame.setPreferredSize(new Dimension(300, 900));
     frame.setSize(new Dimension(300, 600));
 
-    JPanel panel = new JPanel(new GridBagLayout());
     button.setBorder(BorderFactory.createEmptyBorder());
     button.setBorderPainted( false );
     button.setFocusPainted(false);
